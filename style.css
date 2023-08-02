@@ -8,7 +8,7 @@ body{
 }
 header{
     height: 15vh;
-    background-color: #F7B37E  ;
+    background-color: #F7B37E ;
 }
 #listaheader{
     padding-left: 50%;
@@ -19,18 +19,22 @@ header{
     font-family: 'Rokkitt', serif;
     font-family: 'Rubik', sans-serif;
 }
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
 main{
     height: 75vh;
     background-color: #F7B37E  ;
     margin-top: 5rem;
 }
-p{
-    font-family: 'Kaushan Script', cursive;
-font-family: 'Roboto Slab', serif;
-font-family: 'Rokkitt', serif;
-font-family: 'Rubik', sans-serif;
-}
+
 h2{
+
     font-family: 'Roboto Slab', serif;
     font-family: 'Rokkitt', serif;
     font-family: 'Rubik', sans-serif;
@@ -41,6 +45,13 @@ h2{
 #section3{
     margin-top: 12rem;
 }
+#ser{
+    margin: 15%;
+}
+#ho{
+    height: 7rem;
+}
+
 footer{
     height: 10vh;
     background-color: #F7B37E  ;
@@ -53,7 +64,15 @@ footer{
     font-family: 'Rokkitt', serif;
     font-family: 'Rubik', sans-serif;
 }
-
+p{
+    font-family: 'Kaushan Script', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rokkitt', serif;
+font-family: 'Rubik', sans-serif;
+}
+input{
+    height: 3.5rem;
+}
 #insta:hover{
     background-color: #FF00FF;
 }
@@ -101,15 +120,6 @@ svg{
 #linux:hover{
     background-color: #FBFCFC;
 }
-input{
-    height: 3.5rem;
- 
-}
-#pa{
-    margin: 6%;
-    padding: 5%;
-}
-#ho{
-    height: 7rem;
-}
+
+
 
