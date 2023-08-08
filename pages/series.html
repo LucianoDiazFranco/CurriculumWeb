@@ -12,7 +12,7 @@
     <title>Series</title>
 </head>
 <body>
-    <header class="container-fluid ">
+    <header class="container-fluid  ">
             <nav class="navbar bg-black fixed-top ">
                 <div class="container-fluid ">
                 <a class="navbar-brand text-white" href="#">Series y Peliculas</a>
@@ -35,18 +35,21 @@
                                 <li class="nav-item">
                                     <a class="nav-link text-white" href="#cont">Valoracion</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="../index.html">CV</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
     </header>
-    <main class="container-fluid ">
-        <div class="row">
-            <section>  
-                    <p class="text-center fs-1  pt-3">Algunas series que podrian gustarte</p>
+    <main class="container-fluid h">
+        <div class="row h-100">
+            <section class="col-sm-12 col-md-12 col-lg-12 col-xl-12 " style="background-color: rgba(20,72,161,1);">  
+                    <p class=" text-center fs-1  pt-3">Algunas series que podrian gustarte</p>
             </section>
-            <section id="section" class="col-12"> 
+            <section id="section" class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-12"> 
                     <img src="../img/show mas.webp" alt="un show mas">
                     <img src="../img/gumball.webp" alt="gumball">
                     <img src="../img/hora de aventura.webp" alt="hora de aventura">
@@ -54,13 +57,13 @@
                     <img src="../img/tio-gramdpa.webp" alt="tio gramdpa">
                     <img src="../img/ben 10.jpg" alt="ben10">
             </section>
-            <section id="video" class="col-6">
+            <section id="video" class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="d-flex flex-column align-items-center mt-5">
                         <p class="fs-1  h-100">Trailer</p>
                         <iframe  width="560" height="315" src="https://www.youtube.com/embed/Mm2Q5MbAiA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
             </section>
-            <aside class="col-6    flex-column align-items-center">
+            <aside class="col-sm-12 col-md-12 col-lg-12 col-xl-6    flex-column align-items-center">
                 <div  >
                     <p class="fs-1 text-center mt-5">audio</p>
                     <audio controls>
@@ -68,7 +71,7 @@
                     </audio>
                 </div>
             </aside>
-            <section>
+            <section class="col-sm-12">
                 <div>
                     <form id="ser">
                         <div id="cont">
@@ -78,7 +81,7 @@
 
                             <label for="floatingTextarea" class="mt-5 mb-3">Comentarios</label>
                             <textarea id="ho" class="form-control" placeholder="Asunto" id="floatingTextarea" ></textarea>
-                            <div>
+                            <div >
                                 <label  class="radio fs-4">Buena</label>
                                 <input  type="radio" name="estado" >
                                 <label  class="radio fs-4">Mala</label>
@@ -86,26 +89,21 @@
                                 <label  class="radio fs-4">Regular</label>
                                 <input  type="radio" name="estado" >
                             </div>
-                            <div>
-                                <p  id="chackbox"class="fs-4 mt-5"> Que te parecio la gama de colores?</p>
-                                <label  class="radio fs-4">Bien</label>
+                            <div >
+                                <p  id="chackbox"class="fs-4 mt-5 text-center"> Que te parecio la gama de colores?</p>
+                                <label id="colores" class="radio fs-4 ">Bien</label>
                                 <input  type="checkbox" name="estado" >
                                 <label  class="radio fs-4">Mala</label>
                                 <input  type="checkbox" name="estado" >
                                 <label  class="radio fs-4">Regular</label>
                                 
                             </div>
-                            <div> 
-                                <textarea name="" id="" cols="30" rows="5"></textarea>
-                                <p class="fs-4">desea recomnedar alguna fuente de colroes?</p>
+                            <div > 
+                                <textarea name="" id="colores" cols="30" rows="5"></textarea>
+                                <p class="fs-4 text-center">desea recomnedar alguna fuente de colroes?</p>
                             </div>
 
-
-                            
-                            
-
-                            
-                            <button type="submit" class="btn btn-outline-dark border-3 mt-3">Enviar</button>
+                            <button type="submit" class="btn btn-outline-dark border-3 mt-3 ">Enviar</button>
                         </div>
                     </form>
                 </div>

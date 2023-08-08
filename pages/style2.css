@@ -16,7 +16,7 @@ header{
     height: 550px;
     justify-content: center;
     margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 17%;
     
 }
 #section img{
@@ -65,6 +65,12 @@ textarea{
     border: 2px solid rgb(140,34,120)blue;
     resize: vertical;
     font-family: Arial, Helvetica, sans-serif;
+}
+#colores{
+    margin-left: 35%;
+}
+button{
+    margin-left: 45%;
 }
 footer{
     height: 5vh;
