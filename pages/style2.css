@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(140,34,120);
+    background: rgb(140,34,120 );
 }
 header{
     height: 10vh;
